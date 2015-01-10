@@ -1,5 +1,5 @@
 ###
-slack.coffee: Test for instances of node-slack Transport
+slack.coffee: Transport for outputting to Slack
 (C) 2015 Michael Brandenburg
 MIT LICENCE
 ###
