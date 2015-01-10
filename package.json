@@ -1,0 +1,33 @@
+{
+  "name": "winston-slack",
+  "version": "0.0.1",
+  "description": "A slack transport for winston",
+  "main": "./lib/slack",
+  "directories": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MCBrandenburg/winston-slack.git"
+  },
+  "keywords": [
+    "slack",
+    "winston",
+    "log",
+    "logging"
+  ],
+  "author": "Michael Brandenburg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MCBrandenburg/winston-slack/issues"
+  },
+  "homepage": "https://github.com/MCBrandenburg/winston-slack",
+  "dependencies": {
+    "node-slack": "0.0.5"
+  },
+  "devDependencies": {
+    "vows": "^0.8.1",
+    "winston": "^0.8.3"
+  }
+}

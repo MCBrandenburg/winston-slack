@@ -1,6 +1,9 @@
 # Logs
 logs
 *.log
+node_modules
+test/config.*
+
 
 # Runtime data
 pids
