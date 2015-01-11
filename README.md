@@ -10,7 +10,7 @@ A slack transport for winston
 $ npm install winston
 $ npm install winston-for-slackers
 ```
-git r
+
 ## Usage
 
 ``` js
