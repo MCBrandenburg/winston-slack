@@ -18,9 +18,7 @@ class Slack
         @team = options.team
         @channel = options.channel
         @slack = new nodeSlack @team,@token
-
         @emoji = options.emoji or ":page_with_curl:"
-
         @username = options.username or "Winston"
 
     util.inherits Slack,winston.Transport
@@ -29,19 +27,21 @@ class Slack
 
     Slack::name = "slack"
 
-    get:()->
-        @token
-
     log:(level,msg,meta,callback)->
         return callback null,true if @silent
 
+        console.log msg
         self = @
 
         slackJSON= {
             text:msg,
             channel: @channel,
+            username: @username,
+            icon_emoji: @emoji
         }
 
-        callback null, true
+        @slack.send(slackJSON, callback)
+
+        callback
 
 module.exports = Slack
