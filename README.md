@@ -1,6 +1,16 @@
 # winston-for-slackers
 A slack transport for winston
 
+
+## Installation
+
+### Installing winston-for-slackers
+
+``` bash
+$ npm install winston
+$ npm install winston-for-slackers
+```
+
 ## Usage
 
 ``` js
@@ -35,13 +45,4 @@ options = {
     emoji: ":smile:",
     username: "MCBrandenburg"
 }
-```
-
-## Installation
-
-### Installing winston-for-slackers
-
-``` bash
-$ npm install winston
-$ npm install winston-for-slackers
 ```
