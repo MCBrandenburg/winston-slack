@@ -30,7 +30,6 @@ class Slack
     log:(level,msg,meta,callback)->
         return callback null,true if @silent
 
-        console.log msg
         self = @
 
         slackJSON= {
@@ -42,6 +41,6 @@ class Slack
 
         @slack.send(slackJSON, callback)
 
-        callback
+        callback null,true
 
 module.exports = Slack

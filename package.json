@@ -1,6 +1,6 @@
 {
   "name": "winston-for-slackers",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A slack transport for winston",
   "main": "./lib/slack",
   "directories": {},

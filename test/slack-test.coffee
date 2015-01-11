@@ -29,7 +29,7 @@ vows.describe("winston-slack").addBatch("An instance of the Slack Transport":
     assertSlack transport
     return
 
-  "the log() method": helpers.testNpmLevels(transport, "should log messages to slack", (ign, err, meta, result) ->
+  "the log() method": helpers.testNpmLevels(transport, "should respond with true", (ign, err, meta, result) ->
     assert.isTrue not err
     assert.isObject result
     return

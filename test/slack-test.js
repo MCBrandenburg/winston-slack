@@ -41,7 +41,7 @@
       "should have the proper methods defined": function() {
         assertSlack(transport);
       },
-      "the log() method": helpers.testNpmLevels(transport, "should log messages to slack", function(ign, err, meta, result) {
+      "the log() method": helpers.testNpmLevels(transport, "should respond with true", function(ign, err, meta, result) {
         assert.isTrue(!err);
         assert.isObject(result);
       })
