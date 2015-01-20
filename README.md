@@ -37,7 +37,7 @@ The username that you want the bot to use, defaults to 'Winston'
 
 ####Example Options
 
-```js
+```coffee
 options = {
     team: "testing",
     channel: "#general",
