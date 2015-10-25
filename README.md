@@ -19,7 +19,7 @@ require('winston-for-slackers').Slack;
 winston.add(winston.transports.Slack, options);
 ```
 
-###Options
+### Options
 *team*
 your team.slack.com
 
@@ -35,7 +35,7 @@ The emoji you want to use, defaults to ':page_with_curl:'
 *username*
 The username that you want the bot to use, defaults to 'Winston'
 
-####Example Options
+#### Example Options
 
 ```coffee
 options = {
