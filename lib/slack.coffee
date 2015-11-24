@@ -41,6 +41,4 @@ class Slack
 
         @slack.send(slackJSON, callback)
 
-        callback null,true
-
 module.exports = Slack
