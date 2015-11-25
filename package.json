@@ -1,6 +1,6 @@
 {
   "name": "winston-for-slackers",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "A slack transport for winston",
   "main": "./lib/slack",
   "directories": {},
@@ -18,6 +18,9 @@
     "logging"
   ],
   "author": "Michael Brandenburg",
+  "contributors": [
+    "Steffen Strätz"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/MCBrandenburg/winston-slack/issues"

@@ -1,6 +1,13 @@
 # winston-for-slackers
 A slack transport for winston
 
+[npm-image]: https://img.shields.io/npm/v/winston-for-slackers.svg?style=flat
+[npm-url]: https://npmjs.org/package/winston-for-slackers
+[downloads-image]: https://img.shields.io/npm/dm/winston-for-slackers.svg?style=flat
+[downloads-url]: https://npmjs.org/package/winston-for-slackers
+
+[![npm][npm-image]][npm-url]
+[![downloads][downloads-image]][downloads-url]
 
 ## Installation
 
